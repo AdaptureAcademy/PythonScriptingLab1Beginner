@@ -48,11 +48,13 @@ Libraries are pre-built packages that allow you to perform various actions witho
 To install the libraries from `requirements.txt` file, run `pip install -r requirements.txt` in the project directory. You can install a library individually by running `pip install <library-name>` in the project directory.
 
 ---
+## Installation of an IDE
+
 An Integrated Development Environment (IDE) allows you to write code efficiently and quickly. It has several advanced features that allow you to be more productive by taking away a lot of hassle in the development process.
 
 *NOTE: You only have to install either ONE of these IDE's*
 
-## Installation of Visual Studio Code (VSCode)
+### Installation of Visual Studio Code (VSCode)
 
 Visual Studio Code is a popular code editor that provides excellent support for Python development. You can download and install it using the following steps:
 
@@ -61,7 +63,7 @@ Visual Studio Code is a popular code editor that provides excellent support for 
 3. Open Visual Studio Code once the installation is complete.
 
 
-## Installation of PyCharm Community Edition
+### Installation of PyCharm Community Edition
 
 PyCharm is a powerful integrated development environment (IDE) for Python. The Community Edition is a free version that provides robust Python development features. You can install it as follows:
 
