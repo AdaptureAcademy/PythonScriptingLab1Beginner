@@ -4,8 +4,7 @@
 
 ## Pre-requisites
 
-You must have Python installed and set up on your system to make API calls to Cloudflare and interacting with the
-returned data.
+You must have Python installed and set up on your system to make API calls to Cloudflare and interact with the returned data.
 
 ### Installation of Python
 
@@ -13,9 +12,9 @@ returned data.
 
     1. Download the latest version of Python from [here](https://www.python.org/downloads/).
     2. Run the installer and follow the instructions.
-    3. Make sure to check the box that says "Add Python to PATH".
-    4. Click "Install Now".
-    5. Once the installation is complete, click "Close".
+    3. Make sure to check the box that says "Add Python to PATH."
+    4. Click "Install Now."
+    5. Once the installation is complete, click "Close."
     6. Open Command Prompt and type `python --version` to check if Python is installed correctly.
     7. If the version is displayed, you have successfully installed Python.
     8. If the version is not displayed, you may have to restart your computer and try again.
@@ -28,20 +27,15 @@ returned data.
 
 ### Make a virtual environment
 
-- A virtual environment is a tool that helps to keep libraries required by different projects separate by creating
-  isolated python virtual environments for them. This is one of the most important tools that most of the Python
-  developers use.
-- Every Python project has a `requirements.txt` file that contains the names of all the libraries required to run the
-  project. You can install all the libraries by running `pip install -r requirements.txt` in the project
-  directory. `requirements.txt` is similar to `package.json` in Node.js.
+- A virtual environment is a tool that helps to keep libraries required by different projects separate by creating isolated Python virtual environments for them. This is one of the most important tools that most Python developers use.
+- Every Python project has a `requirements.txt` file that contains the names of all the libraries required to run the project. You can install all the libraries by running `pip install -r requirements.txt` in the project directory. `requirements.txt` is similar to `package.json` in Node.js.
 - To create a virtual environment, run `python3 -m venv venv` in the project directory.
 
 ### Activation of the Virtual Environment
 
 - #### Windows
 
-  To activate the virtual environment from your CMD/PowerShell, run `venv\Scripts\activate.bat` in the project
-  directory.
+  To activate the virtual environment from your CMD/PowerShell, run `venv\Scripts\activate.bat` in the project directory.
 
 - #### Linux
 
@@ -49,12 +43,29 @@ returned data.
 
 ### Installation of libraries via pip
 
-libraries are pre-built packages that allow you to perform various actions without writing code from scratch. It
-speeds up the development process and adheres to the DRY (Don't Repeat Yourself) principle.
+Libraries are pre-built packages that allow you to perform various actions without writing code from scratch. It speeds up the development process and adheres to the DRY (Don't Repeat Yourself) principle.
 
-To install the libraries from `requirements.txt` file, run `pip install -r requirements.txt` in the project
-directory. You can install a library individually by running `pip install <library-name>` in the project
-directory.
+To install the libraries from `requirements.txt` file, run `pip install -r requirements.txt` in the project directory. You can install a library individually by running `pip install <library-name>` in the project directory.
+
+---
+
+## Installation of Visual Studio Code (VSCode)
+
+Visual Studio Code is a popular code editor that provides excellent support for Python development. You can download and install it using the following steps:
+
+1. Download the Visual Studio Code installer for your operating system from [here](https://code.visualstudio.com/download).
+2. Run the installer and follow the installation instructions.
+3. Open Visual Studio Code once the installation is complete.
+
+---
+
+## Installation of PyCharm Community Edition
+
+PyCharm is a powerful integrated development environment (IDE) for Python. The Community Edition is a free version that provides robust Python development features. You can install it as follows:
+
+1. Download the PyCharm Community Edition installer for your operating system from [here](https://www.jetbrains.com/pycharm/download/).
+2. Run the installer and follow the installation instructions.
+3. Open PyCharm Community Edition once the installation is complete.
 
 ---
 
