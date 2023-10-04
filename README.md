@@ -11,20 +11,20 @@ returned data.
 
 - #### Windows
 
-  1. Download the latest version of Python from [here](https://www.python.org/downloads/).
-  2. Run the installer and follow the instructions.
-  3. Make sure to check the box that says "Add Python to PATH".
-  4. Click "Install Now".
-  5. Once the installation is complete, click "Close".
-  6. Open Command Prompt and type `python --version` to check if Python is installed correctly.
-  7. If the version is displayed, you have successfully installed Python.
-  8. If the version is not displayed, you may have to restart your computer and try again.
+    1. Download the latest version of Python from [here](https://www.python.org/downloads/).
+    2. Run the installer and follow the instructions.
+    3. Make sure to check the box that says "Add Python to PATH".
+    4. Click "Install Now".
+    5. Once the installation is complete, click "Close".
+    6. Open Command Prompt and type `python --version` to check if Python is installed correctly.
+    7. If the version is displayed, you have successfully installed Python.
+    8. If the version is not displayed, you may have to restart your computer and try again.
 
 - #### Linux
 
-  1. Open Terminal and type `sudo apt-get install python3`.
-  2. Once the installation is complete, type `python3 --version` to check if Python is installed correctly.
-  3. If the version is displayed, you have successfully installed Python.
+    1. Open Terminal and type `sudo apt-get install python3`.
+    2. Once the installation is complete, type `python3 --version` to check if Python is installed correctly.
+    3. If the version is displayed, you have successfully installed Python.
 
 ### Make a virtual environment
 
@@ -40,7 +40,8 @@ returned data.
 
 - #### Windows
 
-  To activate the virtual environment from your CMD/PowerShell, run `venv\Scripts\activate.bat` in the project directory.
+  To activate the virtual environment from your CMD/PowerShell, run `venv\Scripts\activate.bat` in the project
+  directory.
 
 - #### Linux
 
@@ -77,17 +78,17 @@ for your script and `.env` for your environment variables.
 
 - ### Creating the `.env` File
 
-  1. In your project directory, create a new file named `.env`.
-  2. Open the `.env` file and add your Cloudflare API token like so:
-      ```plaintext
-      CLOUDFLARE_API_TOKEN='your-api-token-here'
-      ```
+    1. In your project directory, create a new file named `.env`.
+    2. Open the `.env` file and add your Cloudflare API token like so:
+        ```plaintext
+        CLOUDFLARE_API_TOKEN='your-api-token-here'
+        ```
 
 - ### Creating the `main.py` File
 
-  1. In your project directory, create a new file named `main.py`.
-  2. Open `main.py` with your text editor of choice.
-  3. Import the necessary libraries and load the environment variables:
+    1. In your project directory, create a new file named `main.py`.
+    2. Open `main.py` with your text editor of choice.
+    3. Import the necessary libraries and load the environment variables:
 
   ```python
   import os
@@ -98,9 +99,9 @@ for your script and `.env` for your environment variables.
   
   api_token = os.getenv('CLOUDFLARE_API_TOKEN')
   ```
-  
+
     4. Now you can add the Cloudflare API calls as functions in `main.py` like so:
-  
+
   ```python
    # Define headers for the API requests, including the Authorization token and the content type.
   headers = {
@@ -173,7 +174,9 @@ for your script and `.env` for your environment variables.
           'ttl': 120,
       })
   ```
+
 ---
+
 With this structure, your project directory should have the following files and directory:
 
 - `.env`: contains your environment variables.
@@ -183,6 +186,7 @@ With this structure, your project directory should have the following files and 
 Now, you can easily run your script from the terminal with the command `python3 main.py`. This will execute the
 Cloudflare API calls defined in your `main.py` file. Remember to replace placeholders like `'your-api-token-here'`
 and `'your-zone-id-here'` with your actual values.
+
 ---
 
 ## Further Reading
@@ -190,4 +194,6 @@ and `'your-zone-id-here'` with your actual values.
 - [Cloudflare API Documentation](https://developers.cloudflare.com/api)
 - [Requests Library Documentation](https://docs.python-requests.org/en/latest/)
 
-This beginner's guide should now have provided you with the basics needed to set up Python on your system, install necessary dependencies, and make API calls to Cloudflare's API. Remember to refer to the Cloudflare API documentation for more detailed information on different API endpoints and how to interact with them.
+This beginner's guide should now have provided you with the basics needed to set up Python on your system, install
+necessary dependencies, and make API calls to Cloudflare's API. Remember to refer to the Cloudflare API documentation
+for more detailed information on different API endpoints and how to interact with them.
