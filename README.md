@@ -180,7 +180,6 @@ With this structure, your project directory should have the following files and 
 - `main.py`: contains your script and Cloudflare API calls.
 - `venv`: contains your virtual environment and libraries.
 
-
 Now, you can easily run your script from the terminal with the command `python3 main.py`. This will execute the
 Cloudflare API calls defined in your `main.py` file. Remember to replace placeholders like `'your-api-token-here'`
 and `'your-zone-id-here'` with your actual values.
